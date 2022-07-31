@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>T.I | Arco-Mix</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="imagem/logo-site.png" type="image/x-icon">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--Esta é a parte do cabeçalho-->
+        <ul class="menu">
+            <a href="https://arcomix.com.br/" target="_blank"> <img src="imagem/logo-site.png" alt="Arco-Mix" width="120" height="100"></a>
+            <nav>
+                <a href="index.html"><button type="button" class="btn btn-outline-primary">Inicio </button></a>
+                <a href="informacoes.html"><button type="button" class="btn btn-outline-primary">Informações</button></a>
+                <a href="cpd.html"><button type="button" class="btn btn-outline-primary">CPD</button></a>
+                <a href="frentedeloja.html"><button type="button" class="btn btn-outline-primary">Frente de Loja</button></a>
+                <a href="centralColaborativa.html"><button type="button" class="btn btn-outline-primary">Central Colaborativa</button></a>     
+            </nav>
+        </ul>
+        <main class="conteudo">
+            <section>
+                <div class="subtit">
+                    <img src="imagem/mercado.png" width="700"> <br><br>
+                    <h1><strong>TUTORIAIS, DICAS, PROCEDIMENTOS, NÃO IMPORTA COMO VOCÊ CHAMA, AQUI VOCÊ APRENDE.</strong></h1><br> 
+                </div> 
+            </section>
+            <div class="icones">
+                <h4>Clique e acesse:</h4>
+                <a href="https://oauth.softwareexpress.com.br/auth/realms/sitefweb/protocol/openid-connect/auth?response_type=code&client_id=sitefweb&redirect_uri=https%3A%2F%2Fsitefweb.softwareexpress.com.br%2Fsitefweb%2Fsso%2Flogin&state=f2ed53fa-a9d3-4a1b-8a99-00b0a5e7087d&login=true&scope=openid" target="_blank">
+                <img src="imagem/sitef.png" alt="ocomon"></a> 
+                <a href="https://webmail.arcomix.com.br/?_task=mail&_mbox=INBOX" target="_blank"><img src="imagem/emailarco.png"></a>               
+            </div><br>
+            <div>
+                <h2>Tabelas de erro do SITEF</h2><br>  
+                <table class="sitef">
+                    <tr><th>Código</th><th>Mensagem apresentada no PDV</th><th>Descrição</th> </tr>
+                    <tr><td>0</td><td>Transção OK</td><td>Aprovada, Transação executada</td></tr>
+                    <tr><td>03</td><td>Estabelecimento inválido</td><td>Estabelecimento comercial inválido</td></tr>
+                    <tr><td>06</td><td>Refaça a transação </td><td>Erro</td></tr>  
+                    <tr><td>12</td><td>Transação inválida </td><td>Transação inválida</td></tr>  
+                    <tr><td>13</td><td>Valor inválido </td><td>Valor da transação inválido</td></tr>
+                    <tr><td>14</td><td>Problema no cartão </td><td>Cartão inválido</td></tr>
+                    <tr><td>15</td><td>Problema no cartão </td><td>Instituição não cadastrada</td></tr>
+                    <tr><td>19</td><td>Refaça a transação </td><td>Refaça a transação</td></tr>
+                    <tr><td>20</td><td>Refaça a transação </td><td>Resposta inválida</td></tr>
+                    <tr><td>25</td><td>Refaça a transação </td><td>Registro não encontrado</td></tr>
+                    <tr><td>30</td><td>Refaça a transação </td><td>Erro de formato</td></tr>
+                    <tr><td>31</td><td>Problema no cartão </td><td>Instituição não pertence a rede</td></tr>
+                    <tr><td>38</td><td>Problema no cartão </td><td>Excedido números de tentativas do pin</td></tr>
+                    <tr><td>39</td><td>Conta inválida </td><td>Número de conta inválida</td></tr>
+                    <tr><td>41</td><td>Problema no cartão </td><td>Cartão de extravio</td></tr>
+                    <tr><td>43</td><td>Problema no cartão </td><td>Cartão roubado</td></tr>
+                    <tr><td>51</td><td>Excede limite </td><td>Saldo insuficiente</td></tr>
+                    <tr><td>52</td><td>Problema no cartão </td><td>Conta corrente não cadastrada</td></tr>
+                    <tr><td>54</td><td>Problema no cartão </td><td>Não autorizada, cartão vencido</td></tr>
+                    <tr><td>55</td><td>Senha inválida </td><td>Senha incorreta</td></tr>
+                    <tr><td>56</td><td>Problema no cartão </td><td>Cartão sem registro</td></tr>
+                    <tr><td>57</td><td>Problema no cartão </td><td>Transação não permitida a este cliente</td></tr>
+                    <tr><td>59</td><td>Conta inválida </td><td>Conta irregular</td></tr>
+                    <tr><td>60</td><td>Ligue Cartão </td><td>Entrar em contato com a instituição</td></tr>
+                    <tr><td>61</td><td>Excede limite </td><td>Excedido o limite de saque</td></tr>
+                    <tr><td>65</td><td>Excede limite </td><td>Excedido frequência de saque</td></tr>
+                    <tr><td>76</td><td>Problema no cartão </td><td>Cartão bloqueado</td></tr>
+                    <tr><td>79</td><td>Problema no banco </td><td>Transação não permitida nesse ciclo</td></tr>
+                    <tr><td>83</td><td>Refaça transação </td><td>Time-out</td></tr>
+                    <tr><td>84</td><td>Refaça transação </td><td>Log-on(terminal não aberto)</td></tr>
+                    <tr><td>85</td><td>Refaça transação </td><td>Problema de rede local</td></tr>
+                    <tr><td>87</td><td>Falta cartão </td><td>Cartão obrigatório na transação</td></tr>
+                    <tr><td>91</td><td>Refaça transação </td><td>Instituição temporariamente fora de operação</td></tr>
+                    <tr><td>M7</td><td>IPTE inválido </td><td>Códido IPTE inválido</td></tr>
+                    <tr><td>M9</td><td>Refaça transação </td><td>Data inválida </td></tr>          
+                </table>
+            <div>
+                <a href="pdf/sitef.pdf" download  target="_blank" class="botao">Se preferir faça o download da tabela aqui.</a>
+            </div>
+            <hr><br>
+            <div>
+                <h2>Procedimentos de transações PIX com anomalias nos feriados e finais de semana</h2><br>
+                    <p>&nbsp; O Arco Mix está apto a receber pagamentos via PIX, 24 horas por dia e os 07 dias da semana. O pix no PDV funciona com QrCode no monitor e no Delivery/e-Commerce
+                    funciona através do comparMlhamento da chave pix. Este processo já está funcionando normalmente no PDV e Delivery/e-Commerce.</p><p>&nbsp; Abaixo descrevo os procedimentos a serem executados, somente, nos casos específicos descritos nos itens 1 e 2 em transações via PIX nas lojas, em especial, nos finais de semanas e feriados.</p><p><strong>1. PIX PDV</strong> – procedimento a ser executado em casos de instabilidade do sistema nacional financeiro:</p>
+                <div class="pix">        
+                    <p> <strong>a.</strong> Se a compra não foi autorizada no PDV, mas debitou do cliente;</p><p><strong>b.</strong> A operadora deverá chamar a fiscal para confirmar se o débito ocorreu na conta do cliente, solicitando ao mesmo que verifique através do aplicaMvo do banco oucarteira digital;</p><p><strong>c.</strong> Se confirmado o débito na conta do cliente: a fiscal deverá solicitar ao cliente que faça um segundo acesso no aplicaMvo, após 3 minutos, para confirmar se o débito ainda existe em sua conta;</p><p><strong>d.</strong> Solicitar ao cliente que envie o comprovante para o celular da loja;</p><p><strong>e.</strong> Após conferência da fiscal e confirmação do débito ainda presente na conta do cliente: pode ser registrada a compra na forma de pagamento POS para finalizar a venda e liberar o cliente;</p><p><strong>f.</strong> Deverá ser enviado ao financeiro o comprovante do débito do cliente e uma CI, ambas assinadas pela fiscal, informando que foi uma venda no PIX e que ocorreu instabilidade do sistema.</p>
+                </div>
+                    <p><strong>2. PIX chave Itaú (Delivery/e-Commerce)</strong></p>
+                <div class="pix">
+                    <p><strong>a.</strong> Passar a seguinte chave PIX para o cliente: <i>pixitau@arcomix.com.br</i></p><p><strong>b.</strong> Aos sábados, domingos e feriados:</p><p>&nbsp;&nbsp;&nbsp; i. Após a efetivação do PIX pelo cliente: solicitar o envio do comprovante do débito na conta do cliente para o celular do Delivery/e-Commerce;</p><p>&nbsp;&nbsp;&nbsp; ii. Após confirmação da equipe delivery/e-Commerce do débito na conta do cliente: registrar a compra na forma de pagamento POS;</p><p><strong>c.</strong> De segunda a quinta até as 17:30 e na sexta-feira até as 16:30:</p><p>&nbsp;&nbsp;&nbsp; i. Após a efeMvação do PIX pelo cliente: solicitar confirmação do depósito ao departamento financeiro;</p><p>&nbsp;&nbsp;&nbsp; ii. Após confirmação do crédito pelo departamento financeiro: registrar a compra na forma de pagamento POS;</p><p><strong>d.</strong> Deverá ser enviado ao financeiro o comprovante do débito do cliente e uma CI, ambas assinadas pela encarregada do Delivery/e-Commerce, informando que foi uma venda no PIX;</p>
+                </div>
+                <p><strong>IMPORTANTE:</strong> No caso do cliente, errar o valor e fazer um PIX com valor maior que a compra: deverá chamar o responsável pela loja, informar o fato ocorrido, e em seguida receber o valor total que foi depositado via PIX, registrando a compra na forma de pagamento POS e a diferença ser utilizado a forma de TROCO. Enviar CI assinado pelo responsável pela loja (gerente/encarregado) detalhando o motivo do troco. Se o cliente errar e transferir um valor menor que a compra, o mesmo deverá
+                realizar um novo PIX ou escolher uma nova forma de pagamento até completar o total da compra.</p><br>
+                <img src="imagem/pix.png"><br><br>
+
+                <a href="pdf/Procedimento nas transações PIX com anomalias nos finais de semana e feriados..pdf" target="_blank" class="botao">Consultar e-mail enviado</a><br><br>
+                <p><i>Orientações passadas por Vagner Pontes | Coordenador Financeiro e Controladoria.</i></p>
+            </div>
+            <hr>
+        </main>
+        <!--Teclado pdv-->
+        <div class="teclado">
+            <img src="imagem/tecladoPDV.jpg" >
+        </div><br>
+        <hr>
+    <footer>
+        <strong>
+            <h6 class="rodape">&reg;Supermercados Arco-Mix | Equipe de desenvolvimento T.I  v1.1</h6>
+            <div class="ip">
+                <table class="contatos">
+                    <tr><td>Andressa Maria</td><td>50006</td><td>andressa.maria@arcomix.com.br</td><td>Carlos josé</td><td>50001</td><td>carlos.jose@arcomix.com.br</td><td>Carlos Alexandre</td><td>50003</td><td>alexandre@arcomix.com.br</td><td>Eduardo Felipe</td><td>50075</td><td>eduardo.felipe@arcomix.com.br</td></tr>
+                    <tr><td>Eraldo</td><td>50007</td><td>manutencao@arcomix.com.br</td><td>Erivelton Oliveira</td><td>50002</td><td>erivelton.oliveira@arcomix.com.br</td><td>Hugo Leonardo</td><td>50005</td><td>hugo.ramos@arcomix.com.br</td><td>Ladjane </td><td>50004</td><td>ladjane@arcomix.com.br</td></tr>
+                    <tr><td>Vicente</td><td>50007</td><td>vicente.silva@arcomix.com.br</td><td>Vinicius Silva</td><td>50074</td><td>vinicius.silva@arcomix.com.br</td></tr>    
+                </table>
+                <br>
+            </div> 
+            <br>
+        </strong>  
+    </footer>
+    <div><!--Inicio da animação do rodapé-->
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"preserveAspectRatio="none"shape-rendering="auto">
+            <defs>
+        <path
+        id="gentle-wave"
+        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>            
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(173,216,230,0.7")/>
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(135,206,250,0.5"/>
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)"/>
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#7cc2b8"/>
+            </g>
+        </svg>
+        </div>  
+    </body>    
+</html>
