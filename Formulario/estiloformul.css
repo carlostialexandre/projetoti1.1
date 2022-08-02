@@ -2,6 +2,14 @@ body{
     margin: 0%;
    
 }
+/*ajustando o tamanho dos label*/
+#loja{
+    width: 600px;
+}
+#nome {
+    width: 30%;
+}
+
 #observacao{
    width: 100%;
    height: 80px;
