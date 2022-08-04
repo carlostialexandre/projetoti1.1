@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Hind+Madurai:wght@300&family=Laila&family=Roboto+Condensed&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,200&display=swap');
+
+body{
+    margin: 1%;
+    font-size: 11pt;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Hind Madurai', sans-serif;
+
+}
