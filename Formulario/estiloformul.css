@@ -1,18 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Hind+Madurai:wght@300&family=Laila&family=Roboto+Condensed&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,200&display=swap');
+
 body{
-    margin: 0%;
-   
+    margin: 1%;
+    font-size: 11pt;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Hind Madurai', sans-serif;
+
+}
+h2 {
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'roboto', sans-serif;
 }
 /*ajustando o tamanho dos label*/
 #loja{
-    width: 600px;
+    width: 400px;
 }
 #nome {
-    width: 30%;
+    width: 300px;
 }
-
+#matricula {
+    width: 90px;
+}
+#setor {
+    width: 300px;
+}
+#funcao {
+    width: 100px;
+}
+#email{
+    width: 300px;
+}
+#ramal {
+    width: 100px;
+}
+#copiatexto {
+    width: 110px;
+}
 #observacao{
-   width: 100%;
+   width: 98%;
    height: 80px;
+}
+.inputBox{
+    padding: 5px;
+}
+.inputBox1 {
+    padding: 5px;
+    display: inline;
+    padding-left: 50px;
 }
 .waves{
     position: relative;
@@ -22,8 +58,9 @@ body{
     min-height: 100px;
     max-height: 150px;
 }
-
-
+.lgpd{
+    font-size: 7pt;
+}
 
 .parallax > use {
     animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;

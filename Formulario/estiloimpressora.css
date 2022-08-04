@@ -3,3 +3,9 @@
 * {
     margin: 5px;
 }
+.impressora {
+    display: none;
+}
+footer {
+    display: none;
+}
