@@ -39,7 +39,7 @@ h2 {
     width: 110px;
 }
 #observacao{
-   width: 98%;
+   width: 99%;
    height: 80px;
 }
 .inputBox{
@@ -103,4 +103,11 @@ h2 {
 h1{
     font-size: 24px;
 }
+}
+.assinatura {
+    margin-top: 35px;
+    border-top: 1px solid;
+    width: 150px;
+    padding: 5px;
+    
 }
